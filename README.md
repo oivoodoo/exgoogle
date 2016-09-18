@@ -1,6 +1,20 @@
 # Exgoogle
 
-**TODO: Add description**
+Google API
+
+
+# Examples:
+
+
+WIP
+
+```elixir
+# Get module for accessing specific api
+Api = Exgoogle.urlshortener('v1')
+
+{:ok, response} = Api.get(%{shortUrl: "http://www.example.com/testing"})
+```
+
 
 ## Installation
 
